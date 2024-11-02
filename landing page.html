@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinito Mind</title>
+    <link rel="stylesheet" href="landing page - CSS.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="https://www.yourcompanyhomepage.com" class="logo-link">
+        <img
+          src=".\Infinito Mind logo.jpg"
+          alt="Infinito Mind Company Logo"
+          class="logo"
+        />
+      </a>
+      <nav class="navbar">
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26px"
+                viewBox="0 -960 960 960"
+                width="26px"
+                fill="undefined"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                /></svg
+            ></a>
+          </li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="Login.html" class="login-link">Login</a></li>
+        </ul>
+        <ul>
+          <li class="hideOnMobile"><a href="#home">Home</a></li>
+          <li class="hideOnMobile"><a href="#about">About Us</a></li>
+          <li class="hideOnMobile"><a href="#services">Services</a></li>
+          <li class="hideOnMobile"><a href="#contact">Contact Us</a></li>
+          <li class="hideOnMobile">
+            <a href="Login.html" class="login-link">Login</a>
+          </li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 -960 960 960"
+                width="26"
+                fill="undefined"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <h1 class="company-name">INFINITO MIND</h1>
+        <p class="tagline">Transforming Education, Empowering Every Learner</p>
+      </section>
+
+      <section id="about">
+        <div class="founders-container">
+          <div class="founders">
+            <div class="center">
+              <h2>Founders</h2>
+            </div>
+            <div class="founders-info">
+              <div class="box">
+                <img src="founder (Sir).jpg" class="founder(Sir)" />
+                <h3>K. Munesh Kumar</h3>
+              </div>
+              <div class="box">
+                <img src="founder (Mam).jpg" class="founder(Mam)" />
+                <h3>K. Priyanka</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="verticals">
+        <h2 class="third_section">Services</h2>
+
+        <div class="vertical-card1">
+          <div class="content">
+            <h3>AR/VR Technology into Education</h3>
+            <p class="first-vertical">
+              Infinito Mind is an innovative ed-tech company committed to
+              revolutionizing education by integrating cutting-edge Augmented
+              Reality (AR) and Virtual Reality technologies. Our solutions
+              seamlessly align with the school curriculum, offering an immersive
+              and interactive learning experience that enhances student
+              engagement and deepens understanding.
+            </p>
+          </div>
+          <div class="image-container">
+            <img
+              src=".\first image(verticals).jpg"
+              alt="AR/VR in Education"
+              class="vertical-image"
+            />
+          </div>
+        </div>
+
+        <div class="vertical-card2">
+          <div class="image-container">
+            <img
+              src=".\second image(verticals).jpg"
+              alt="Apex Prep"
+              class="vertical-image"
+            />
+          </div>
+          <div class="content">
+            <h3>Apex Prep</h3>
+            <p class="second-vertical">
+              Integrating Competitive Syllabus with Liberal Arts Curricula.
+            </p>
+          </div>
+        </div>
+
+        <div class="vertical-card3">
+          <div class="content">
+            <h3>Learners Persona</h3>
+            <p class="third-vertical">
+              Leveraging student profiling to enhance personalized learning
+              pathways.
+            </p>
+          </div>
+          <div class="image-container">
+            <img
+              src=".\third image(verticals).jpg"
+              alt="Learners Persona"
+              class="vertical-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="query"
+            placeholder="Please Type Your Query Here.."
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footerContainer">
+        <div class="socialIcons">
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://linkedin.com" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p class="copyright">&copy; 2024 Infinito Mind. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="landing page-JS.js"></script>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".navbar .sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".navbar .sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
